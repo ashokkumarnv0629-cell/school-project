@@ -1,0 +1,56 @@
+.home-hero {
+    padding: 28px 12px;
+}
+.highlight{
+    
+  text-align: center;
+  margin-top: 0;
+ color: #ffd85a !important;
+  font-weight: 800;
+  text-shadow: 0 4px 14px rgba(246, 236, 236, 0.65) !important;
+}
+
+.home-hero h1 {
+    font-size: 2.4rem;
+    margin: 0 0 8px;
+    color: #fff;
+    line-height: 1.08;
+}
+
+.home-hero .tagline {
+    font-size: 1.05rem;
+    color: rgba(255,255,255,0.95);
+    margin-bottom: 12px;
+}
+
+.home-hero .description {
+    color: rgba(255,255,255,0.92);
+    max-width: 680px;
+}
+
+.home-hero .hero-actions .btn {
+    margin-top: 14px;
+}
+
+/* Courses list styling */
+.text-block h2 { color: #fff; margin-bottom: 8px; }
+.text-block ul { padding-left: 18px; }
+.text-block li { margin-bottom: 8px; color: rgba(255,255,255,0.95); }
+
+/* Image block adjustments */
+.image-block img { width: 100%; border-radius: 12px; display: block; }
+
+/* Make sure the home container spacing is consistent */
+.home-container { padding-top: 12px; }
+
+@media (max-width: 880px) {
+    .home-hero h1 { font-size: 1.6rem; }
+}
+.Map{
+    background-color:#2b2c6f ;
+  text-align: center;
+  margin-top: 0;
+ color: #ffd85a !important;
+  font-weight: 800;
+  text-shadow: 0 4px 14px rgba(246, 236, 236, 0.65) !important;
+}

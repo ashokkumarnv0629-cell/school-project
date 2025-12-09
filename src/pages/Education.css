@@ -1,0 +1,21 @@
+/* Styles specific to Education page */
+.education-page {
+  width: 100%;
+  min-height: 100vh;
+  box-sizing: border-box;
+  padding: 20px;
+  
+}
+
+.education-page h2 {
+  margin-top: 0;
+}
+
+/* Make the list items for the education programs explicitly black */
+.education-page ul,
+.education-page ul li {
+  color: #000000;
+}
+.li{
+    color: #000000;    
+}

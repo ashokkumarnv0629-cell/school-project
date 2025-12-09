@@ -1,0 +1,313 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 36px;
+  background: linear-gradient(135deg, #2b2c6f 0%, #4b1f6f 60%);
+  color: #fff9f0;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.35);
+  border-bottom: 4px solid rgba(255, 215, 0, 0.08);
+  font-family: "Georgia", "Times New Roman", serif;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: 0.6px;
+  color: #ffd85a;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.45);
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 28px;
+  align-items: center;
+  letter-spacing: 0.6px;
+  color: #10100f;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.45);
+  
+}
+
+.nav-links li a {
+  letter-spacing: 0.6px;
+  color: #ffd85a;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.45);
+  font-weight: 600;
+  padding: 8px 14px;
+  border-radius: 10px;
+  transition: all 0.22s ease;
+  text-decoration: none;
+}
+
+.nav-links li a:hover,
+.nav-links li a:focus {
+  background: rgba(255, 215, 0, 0.08);
+  color: #0d0d0c;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 28px rgba(75,31,111,0.12);
+}
+
+.nav-links li a:active {
+  transform: translateY(0);
+}
+
+.menu-icon {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: #000000;
+}
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  background: linear-gradient(180deg, #030303, #060605);
+  padding: 8px;
+  border-radius: 10px;
+  min-width: 160px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+  z-index: 40;
+}
+
+.dropdown:hover .dropdown-menu,
+.dropdown:focus-within .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu a {
+  color: #2b2b2b;
+  display: block;
+  padding: 8px 10px;
+  border-radius: 6px;
+}
+
+.dropdown-menu a:hover {
+  background: rgba(75,31,111,0.06);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .menu-icon {
+    display: block;
+  }
+  .nav-links {
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    right: -100%;
+    width: 200px;
+    background: #0056a6;
+    transition: 0.3s;
+  }
+  .nav-links.open {
+    right: 0;
+  }
+
+}
+.slider img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+/* Footer styles */
+.site-footer {
+  background: #0056a6;
+  color: rgb(0, 0, 0);
+  padding: 16px 20px;
+  text-align: center;
+}
+
+.site-footer .footer-content p {
+  margin: 4px 0;
+  font-size: 0.95rem;
+}
+body{
+  background-color: #2b2c6f;
+}
+
+/* Page containers use the card look to appear 3D */
+.about-page, .contact-page, .gallery-page, .education-page {
+  max-width: 1100px;
+  margin: 28px auto 80px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  border-radius: 16px;
+  padding: 28px;
+  box-shadow: 0 18px 50px rgba(9,7,20,0.6), inset 0 1px 0 rgba(255,255,255,0.02);
+  border: 1px solid rgba(255,255,255,0.03);
+}
+
+.about-page h2, .contact-page h2, .gallery-page h2, .education-page h2 {
+  color: #000000;
+  margin-bottom: 12px;
+}
+
+/* Hero section styles for Home page */
+.hero-section {
+  padding: 26px 10px;
+}
+.hero-section h1 {
+  font-size: 2.1rem;
+  margin: 0 0 8px 0;
+  line-height: 1.15;
+  
+}
+.hero-section .tagline {
+  font-size: 1.05rem;
+  margin: 0 0 12px 0;
+  color: rgba(231, 85, 85, 0.9);
+}
+.hero-section .description {
+  max-width: 680px;
+  color: rgb(246, 242, 242);
+}
+.hero-actions .btn { margin-top: 12px; }
+
+.about-page p, .contact-page p, .gallery-page p, .education-page p, .education-page ul li {
+  color: rgba(219, 15, 15, 0.9);
+  line-height: 1.6;
+}
+
+/* Home page highlight text */
+.highlight {
+  color: #ffd85a !important;
+  font-weight: 800;
+  text-shadow: 0 4px 14px rgba(246, 236, 236, 0.65) !important;
+}
+
+.highlight2 {
+  color: #ea1e1e !important;
+  font-weight: 700;
+}
+
+/* Add subtle 3D hover to images and sliders */
+.slider img, .gallery-page img {
+  border-radius: 12px;
+  transform: translateZ(0);
+  transition: transform 0.35s cubic-bezier(.2,.9,.25,1), box-shadow 0.35s ease;
+}
+.slider img:hover, .gallery-page img:hover {
+  transform: translateY(-6px) rotateX(1deg);
+  box-shadow: 0 30px 60px rgba(11,8,20,0.6);
+}
+
+/* Decorative accent blocks for colourless areas */
+.accent-block {
+  background: linear-gradient(90deg, rgba(255,216,90,0.08), rgba(75,31,111,0.06));
+  padding: 12px;
+  border-radius: 10px;
+}
+
+/* small utility */
+.muted { color: rgba(255,255,255,0.65); }
+
+/* Make all text white site-wide, but preserve navigation bar styling */
+body, body * {
+  color: #000000 !important;
+}
+
+/* Restore navbar-specific colors so navigation stays styled */
+.navbar, .navbar * {
+  color: inherit;
+}
+
+.logo {
+  color: #ffd85a !important;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.45) !important;
+}
+
+.nav-links li a {
+  color: #ffd85a !important;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.45) !important;
+}
+
+.menu-icon {
+  color: #fff6d1 !important;
+}
+
+.dropdown-menu a {
+  color: #ff3f3f !important;
+}
+
+/* Home page two-column layout: text left, image right */
+.home-container {
+  max-width: 1100px;
+  margin: 0 auto 40px;
+  padding: 0 20px;
+}
+/* Make the home-container visually distinct and ensure it's above the slider */
+.home-container {
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01));
+  border-radius: 14px;
+  padding: 22px 20px 28px;
+  margin-top: 18px;
+  box-shadow: 0 18px 50px rgba(9,7,20,0.45);
+  position: relative;
+  z-index: 5;
+}
+.home-container .content-section {
+  display: flex;
+  gap: 36px;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+.home-container .text-block {
+  flex: 1 1 52%;
+}
+.home-container .image-block {
+  flex: 1 1 44%;
+  display: flex;
+  justify-content: center;
+}
+.home-container .image-block img {
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 20px 50px rgba(9,7,20,0.6);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+}
+.home-container .image-block img:hover {
+  transform: translateY(-8px) scale(1.02);
+}
+
+/* Slider container styles to prevent overlap and ensure layout flow */
+.slider {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.slider img {
+  display: block;
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 0;
+}
+
+/* Ensure content after the slider is visible */
+.slider + .home-container,
+.slider + h1 + .home-container {
+  margin-top: 18px;
+}
+
+@media (max-width: 880px) {
+  .home-container .content-section { flex-direction: column-reverse; gap: 20px; }
+  .home-container .text-block, .home-container .image-block { flex: none; width: 100%; }
+  .home-container { padding: 0 12px; }
+}
+
+
+
+
+
