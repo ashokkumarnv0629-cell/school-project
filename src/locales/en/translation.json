@@ -1,0 +1,92 @@
+{
+  "school_name": "CHAITANYA GURUKULA SCHOOL",
+  "address": "Santebennur, Karnataka",
+  
+  "nav_home": "Home",
+  "nav_about": "About Us",
+  "nav_education": "Education",
+  "nav_gallery": "Gallery",
+  "nav_contact": "Contact",
+  
+  "edu_prekg": "Pre-KG",
+  "edu_primary": "Primary",
+  "edu_highschool": "High School",
+  
+  "hero_welcome_prefix": "Welcome to",
+  "hero_tagline_prefix": "Interface Friendly Learning At",
+  "hero_tagline_suffix": "Gurukula International School",
+  "hero_description": "Nestled in Bangalore South, Gurukula International School, Magadi Road is a highly progressive and enterprising International School committed to providing quality education with great emphasis on traditional values. Here at GIS we are reinventing education by breaking old moulds of thought.",
+  
+  "courses_heading": "Courses",
+  "course_nursery": "Nursery: Montessori Methodology of teaching (PN, LKG, UKG)",
+  "course_grade1_3": "Grades 1 to 3 follow NCERT Curriculum",
+  "course_grade4_10_cbse": "Grades 4 to 10 follow CBSE Curriculum",
+  "course_grade8_10_state_english": "Grades 8 to 10 English Medium follow Karnataka State Board Syllabus",
+  "course_grade_kannada_medium": "Nursery to 10th Kannada Medium follow Karnataka State Board Syllabus",
+  
+  "map_directions": "Our Directions",
+  "footer_rights_reserved": "All rights reserved.",
+  "footer_address_label": "Address",
+
+
+  
+  "about_title": "About Our School",
+  "about_intro_p1": "Chaitanya Gurukula School, Santebennur, is committed to nurturing young minds with a perfect blend of traditional values and modern education. Our institution stands as a symbol of academic excellence, discipline, and holistic development.",
+  
+  "about_img_alt_1": "School Building",
+  "about_history_p1": "G.I.S (GURUKULA INTERNATIONAL SCHOOL) was established in 1980. It is one of the premier institutions in Karnataka, serving the cause of education from Nursery to Tenth Standard in both English and Kannada medium at 9th Cross, Magadi Road, Bangalore city. The school has consistently achieved 100% SSLC Board Examination results due to the commitment of its teaching staff.",
+  "about_history_p2": "The founders and successive leaders were distinguished educationists and philanthropists who laid a strong foundation and nurtured its growth over decades. Their dedication, determination, and values have shaped GIS into a respected institution with more than 2000 students.",
+  "about_history_p3": "For more than four decades, GIS remains devoted to its mission of providing quality education, instilling discipline, and fostering holistic development among students.",
+  
+  "about_values_title": "GIS Values",
+  "about_img_alt_2": "GIS Values",
+  "value_discipline_title": "Discipline",
+  "value_discipline_desc": "Encouraging responsible behavior and self-control.",
+  "value_integrity_title": "Integrity",
+  "value_integrity_desc": "Building honesty, sincerity, and strong moral character.",
+  "value_respect_title": "Respect",
+  "value_respect_desc": "Treating everyone with dignity and kindness.",
+  "value_excellence_title": "Excellence",
+  "value_excellence_desc": "Highest standards in academics & life.",
+  "value_holistic_title": "Holistic Growth",
+  "value_holistic_desc": "Mental, emotional & physical development.",
+  "value_traditional_title": "Traditional Values",
+  "value_traditional_desc": "Culture + modern learning.",
+  
+  "about_management_title": "Management & Principal’s Message",
+  "about_img_alt_3": "Management",
+  "management_chairman_role": "Chairman & Managing Director",
+  "management_chairman_name": "Mr. Nanjundaiah. S",
+  "management_chairman_bio": "Completed MA. B.Ed., from Mysore University in 1979. Joined Bapuji Independence P.U. College, Magadi Road, Bangalore in 1980 as a Lecturer and later served as Principal until 2006.",
+  "management_principal_role": "From the Principal’s Desk",
+  "management_principal_p1": "Education of the new millennium needs to be technologically innovative and creatively challenging. Students must be prepared for the challenges of tomorrow while appreciating and respecting our rich cultural heritage.",
+  "management_principal_p2": "Our mission is to impart quality education and create responsible, capable individuals who contribute positively to the nation.",
+  "management_principal_p3": "We welcome you into our institution and congratulate you for choosing the right environment that nurtures learning and growth — Karnataka Education Society of Gurukula International School.",
+
+
+
+  
+  "edu_programs_title": "Our Educational Programs",
+  "edu_method_desc": "We employ a student-centric methodology, focusing on interactive classes and practical applications of knowledge across all levels.",
+  
+  "edu_grade_level_title": "Curriculum Focus",
+  "edu_grade_level_desc": "Our curriculum balances the rigors of the CBSE/State Board syllabus with extracurricular activities, ensuring holistic development from Nursery to Tenth Standard.",
+
+
+
+  "gallery_title": "School Events and Activities",
+  "gallery_desc": "Explore moments from our annual sports day, cultural festivals, and science exhibitions.",
+  "gallery_image_alt_prefix": "School Event Image",
+
+
+
+  
+  "contact_heading": "Get in Touch",
+  "contact_form_title": "Send Us a Message",
+  "contact_email_label": "Email",
+  "contact_phone_label": "Phone",
+  "contact_name_label": "Your Name",
+  "contact_message_label": "Message",
+  "contact_send_button": "Send Inquiry",
+  "contact_form_submission_alert": "Thank you for your inquiry! We will respond shortly."
+}
